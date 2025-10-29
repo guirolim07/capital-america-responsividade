@@ -60,7 +60,7 @@ main{
 }
 
 .america{
-    transform: translate(500px, -2380px);
+    transform: translate(550px, -2380px);
     font-size: 50PX;
     letter-spacing: 2PX;
     font-family:Helvetica;
@@ -68,13 +68,13 @@ main{
 }
 
 .sobrenome{
-    transform: translate(500px, -2370px);
+    transform: translate(550px, -2370px);
     font-size: 50px;
     font-family: Helvetica;
     text-shadow: 0px 5px 0px rgb(186, 186, 186);
 }
 .hero{
-    transform: translate(500px, -2650px);
+    transform: translate(550px, -2680px);
     font-size: 20px;
     color: #8F8F8F;
     letter-spacing: 5px;
@@ -113,3 +113,163 @@ main{
     transform: translate(170px, -3100px);
 }
 
+/*Tablet*/
+@media (max-width: 1024px) {
+
+    .america{
+        transform: translate(90px,-1880px);
+        font-size: 35px;
+    }
+    
+    .sobrenome{
+        transform: translate(90px,-1880px);
+        font-size: 35px;
+    }
+    
+    .hero{
+        transform: translate(100px,-2080px);
+        font-size: 17px;
+    }
+    
+    .retangulo img{
+        display: flex;
+        margin-left: 210px;
+        height: 850px;
+        width: 700px;
+        transform: translate(-160px, -145px);        
+    }
+    
+    .facebook img{
+        transform: translate(30px, -160px);
+        width: 50px;
+    }
+    
+    .twitter img{
+        transform: translate(165px, -1060px);
+        width: 50px;
+    }
+    
+    .instagram img{
+        transform: translate(100px, -1115px);
+        width: 50px;
+    }
+
+    .Proximo{
+        display: flex;
+        align-items: center;
+        transform: translate(0px, -40px);
+        gap: 20px;
+    }
+    
+    .pesquisa{
+        transform: translate(200px, 20px); 
+      }
+    
+      .shield img{
+        transform: translate(130px, -2350px);
+        width: 250px;
+      }
+
+      .video img{
+        transform: translate(110px, -1855px);
+        width: 300px;
+      }
+
+      .capitao img{
+        transform: translate(280px, -1005px);
+        width: 650px;
+        }
+
+      .pontilhado img{
+        transform: translate(20px, -1705px);
+      }
+
+      .Logo{
+        transform: translate(-60px, 850px);
+        height: 120px;
+        display: flex;
+    }
+}
+
+/*celular*/
+@media (max-width: 480px) {
+
+    .america{
+        transform: translate(120px,-2147px);
+        font-size: 25px;
+    }
+    
+    .sobrenome{
+        transform: translate(365px,-2205px);
+        font-size: 25px;
+    }
+    
+    .hero{
+        transform: translate(140px,-2340px);
+        font-size: 25px;
+    }
+    
+    .retangulo img{
+        display: flex;
+        margin-left: 210px;
+        height: 1150px;
+        width: 600px;
+        transform: translate(-120px, -125px);        
+    }
+    
+    .facebook img{
+        transform: translate(20px, -50px);
+        width: 60px;
+    }
+    
+    .twitter img{
+        transform: translate(20px, -1140px);
+        width: 60px;
+    }
+    
+    .instagram img{
+        transform: translate(20px, -1065px);
+        width: 60px;
+    }
+
+    .Proximo{
+        display: flex;
+        align-items: center;
+        transform: translate(20px, -20px);
+        gap: 20px;
+    }
+    
+    .pesquisa{
+        transform: translate(240px, 20px); 
+      }
+    
+      .shield img{
+        transform: translate(130px, -2200px);
+        width: 350px;
+      }
+
+      .video img{
+        transform: translate(110px, -2035px);
+        width: 300px;
+      }
+
+      .capitao img{
+        transform: translate(280px, -1165px);
+        width: 650px;
+        }
+
+      .pontilhado img{
+        transform: translate(20px, -1705px);
+      }
+
+      .Logo{
+        transform: translate(-60px, 1180px);
+        height: 150px;
+    }
+
+    .seta img{
+        transform: translate(350px, -1900px);
+}
+    
+    
+}
