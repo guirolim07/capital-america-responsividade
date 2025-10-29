@@ -1,6 +1,10 @@
 
 body{
     background-color: #04003F;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .Logo{
@@ -35,7 +39,7 @@ header{
 
 main{ 
     width: 100%;
-    height: 1100px;
+    height: 100%px;
     
 }
 
@@ -55,7 +59,7 @@ main{
 }
 
 .capitao img{
-    transform: translate(1400px, -1350px);
+    transform: translate(1400px, -1450px);
     width: 1000px;
 }
 
@@ -188,6 +192,11 @@ main{
         transform: translate(-60px, 850px);
         height: 120px;
         display: flex;
+    }
+
+    .seta img{
+        transform: translate(350px, -1900px);
+        z-index: 999;
     }
 }
 
